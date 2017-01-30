@@ -1,20 +1,17 @@
+var posX = 0;
+var speed = 3;
 function setup() {
 	createCanvas(400, 400);	
 }
 
-var posX = 100;
 function draw() {
 	background(255);
 	
 	ellipse(posX,200,50,50);
 	
-	if(posX < 375) {
-		posX = posX + 3;
-	
-		print("if");
+if(posX > 380) {
+	speed = -3;
 }
-	else {
-		posX = posX - 3;
-		print("else");
-		
+	posX = posX + speed;
+
 }
