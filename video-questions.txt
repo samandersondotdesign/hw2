@@ -1,0 +1,7 @@
+1. A while loop is formatted very similarly to an if statement. The contents are repeated while the condition is true.
+The for loop is formatted so that you can provide a variable, condition, and modifying action all inside the first line.
+
+2. Four parts of a for loop are a variable, condition, modifying action, and the inside of the function which is the action 
+you want to do. 
+
+3. Nested loops allow you to loops different variables in the same loop. 
