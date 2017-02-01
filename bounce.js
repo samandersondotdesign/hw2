@@ -1,6 +1,5 @@
 
 var speed = 5;
-var left = -5;
 var posX = 0;
 var posY = 200;
 
